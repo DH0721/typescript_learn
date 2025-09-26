@@ -1,6 +1,13 @@
 npm i @types/node
+npm i @typenode
+
 npm install typescript -g
 --typescriptをダイレクトに実行可能
 npm install -g tsx typescript
 
-tsc --init
+tsc -- typescript compile javaScript
+
+ts -> js -- ts
+
+# ts-node -> tsx
+ex) tsx .\src\index.ts

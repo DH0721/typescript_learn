@@ -1,14 +1,24 @@
 {
   "compilerOptions": {
+    // 모듈 시스템을 ESNext로 설정
+    // "target": "ES5",
     "target": "esnext",
+    // ES 모듈을 사용하도록 설정
+    // "module": "commonjs",
     "module": "esnext",
+    // outdir 옵션을 사용하여 컴파일된 파일의 출력 디렉토리를 지정
     "outDir": "dist",
+    // strict 옵션을 활성화하여 엄격한 타입 검사 수행
     "strict": true,
+    // 글로벌 모듈은 전역변수처리되므로 변수명이 겹쳐도 에러가 나지 않음
     "moduleDetection": "force",
+    // 라이브러리 파일의 타입 검사를 건너뜀
     "skipLibCheck": true
   },
   "ts-node": {
+    // esm 모듈을 사용하도록 설정
     "esm": true
   },
+  // src 폴더 내의 모든 ts 파일을 컴파일 대상으로 포함
   "include": ["src"]
 }
