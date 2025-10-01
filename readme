@@ -1,3 +1,6 @@
+node -v
+npm create vite@latest
+
 npm i @types/node
 npm i @typenode
 
